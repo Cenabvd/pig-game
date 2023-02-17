@@ -32,7 +32,7 @@ document.querySelector('.btn-hold').addEventListener('click' , function(){
         //update the UI
         document.querySelector('#score-' + activeplayer).textContent = scores[activeplayer]
         // check if player won the game
-        if(scores[activeplayer] >= 10){
+        if(scores[activeplayer] >= 100){
             document.getElementById('name-' + activeplayer).textContent = 'YOU WINNER!';
             document.querySelector('.dice').style.display = 'none';
             document.querySelector('.player-'+activeplayer+'-panel').classList.toggle('winner')
