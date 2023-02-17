@@ -14,7 +14,7 @@
 }
 body{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -87,7 +87,7 @@ body{
     cursor: pointer;    
 }
 .btn-roll-dice{
-    bottom: 200px;
+    top: 500px;
     background: none;
     border: none;
     color: #8d27c4;
@@ -101,7 +101,7 @@ body{
     padding-left: 8px;
 }
 .btn-hold{
-    bottom: 150px;
+    top: 550px;
     background: none;
     border: none;
     color: #8d27c4;
@@ -181,7 +181,7 @@ body{
         cursor: pointer;    
     }
     .btn-hold{
-        bottom: 150px;
+        top: 550px;
         background: none;
         border: none;
         color: #ffffff;
@@ -193,7 +193,7 @@ body{
         cursor: pointer;
     }
     .btn-roll-dice{
-        bottom: 200px;
+        top: 500px;
         background: none;
         border: none;
         color: #ffffff;
@@ -228,96 +228,3 @@ body{
 /* http://127.0.0.1:5500/ */
 
 
-@media screen and (width : 450px) {
-    .wrapper{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff;
-        text-align: center;
-    }
-    .player-name{
-        font-size: 2rem;
-        font-weight: lighter;  
-        padding-top: 120px;
-    }
-    .player-score{
-        font-size: 10rem;
-        font-weight: 100;
-        color: #394f9e;
-    }
-    .player-current-box{
-        text-align: center;
-        margin-top: 200px;
-        font-size: 1rem;
-        display: inline-block;
-        padding: 8px 8px;
-        background-color: #394f9e;
-    }
-    .dice{
-        width: 90px;
-        position: fixed;
-        box-shadow: 0px 5px 45px #0000005b;
-        display: none;
-    }
-    .wrapper > button {
-        position: fixed;
-    }
-    .btn-new{
-        top: 450px;
-        background: none;
-        border: none;
-        color: #ffffff;
-        background-color: #d0477c;
-        padding: 9px 11px;
-        font-size: .9rem;
-        border-radius: 5px;
-        box-shadow: 0px 1px 25px #0000006c;
-        cursor: pointer;    
-    }
-    .btn-hold{
-        bottom: 150px;
-        background: none;
-        border: none;
-        color: #ffffff;
-        background-color: #394f9e;
-        padding: 5px 11px;
-        font-size: .9rem;
-        border-radius: 5px;
-        box-shadow: 0px 1px 25px #0000006c;
-        cursor: pointer;
-    }
-    .btn-roll-dice{
-        bottom: 200px;
-        background: none;
-        border: none;
-        color: #ffffff;
-        background-color: #394f9e;
-        padding: 5px 11px;
-        font-size: .9rem;
-        border-radius: 5px;
-        box-shadow: 0px 1px 25px #0000006c;
-        cursor: pointer;
-    }
-    .btn-roll-dice > span:hover{
-        padding-left: 0px;
-    }
-    .btn-hold > span:hover{
-        padding-left: 0px;
-    }
-    .winner{
-        color: #e62058;
-
-    }
-    .player-current-box{
-        text-align: center;
-        margin-top: 150px;
-        font-size: 1.1rem;
-        display: inline-block;
-        padding: 10px 10px;
-        background-color: #394f9e;
-        border-radius: 5PX;
-    }
-}
