@@ -174,7 +174,7 @@ body{
         border: none;
         color: #ffffff;
         background-color: #d0477c;
-        padding: 9px 11px;
+        padding: 8px 10px;
         font-size: .9rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
@@ -186,7 +186,7 @@ body{
         border: none;
         color: #ffffff;
         background-color: #394f9e;
-        padding: 5px 11px;
+        padding: 5px 10px;
         font-size: .9rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
@@ -198,7 +198,7 @@ body{
         border: none;
         color: #ffffff;
         background-color: #394f9e;
-        padding: 5px 11px;
+        padding: 5px 10px;
         font-size: .9rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
@@ -223,8 +223,70 @@ body{
         background-color: #394f9e;
         border-radius: 5PX;
     }
+    .player-current-label{
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+    .player-current-score{
+        font-size: 1.2rem;
+        color: #ffffff;
+    
+    }
 }
 
 /* http://127.0.0.1:5500/ */
-
+@media screen and (max-width : 450px){
+    .btn-new{
+        top: 450px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        background-color: #d0477c;
+        padding: 7px 8px;
+        font-size: .7rem;
+        border-radius: 5px;
+        box-shadow: 0px 1px 25px #0000006c;
+        cursor: pointer;    
+    }
+    .btn-hold{
+        top: 550px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        background-color: #394f9e;
+        padding: 7px 8px;
+        font-size: .7rem;
+        border-radius: 5px;
+        box-shadow: 0px 1px 25px #0000006c;
+        cursor: pointer;
+    }
+    .btn-roll-dice{
+        top: 500px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        background-color: #394f9e;
+        padding: 7px 8px;
+        font-size: .7rem;
+        border-radius: 5px;
+        box-shadow: 0px 1px 25px #0000006c;
+        cursor: pointer;
+    }
+    .btn-roll-dice > span:hover{
+        padding-left: 0px;
+    }
+    .btn-hold > span:hover{
+        padding-left: 0px;
+    }
+    .player-current-label{
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+    .player-current-score{
+        font-size: 1.1rem;
+        color: #ffffff;
+    
+    }
+    
+}
 
