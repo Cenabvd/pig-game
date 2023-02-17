@@ -188,8 +188,8 @@ body{
         border: none;
         color: #ffffff;
         background-color: #d0477c;
-        padding: 8px 10px;
-        font-size: .9rem;
+        padding: 10px 10px;
+        font-size: 1rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
         cursor: pointer;    
