@@ -23,8 +23,8 @@ body{
 }
 /* wrapper */
 .wrapper{
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +48,7 @@ body{
     font-size: 1.1rem;
     display: inline-block;
     padding: 10px 10px;
+    border-radius: 5px;
     background-color: #394f9e;
 }
 
@@ -79,20 +80,29 @@ body{
 }
 
 .btn-new{
-    top: 200px;
+    top: 450px;
     background: none;
     border: none;
-    color: #e62058;
     font-size: 1.4rem;
-    cursor: pointer;    
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #d0477c;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 25px #0000006c;    
 }
 .btn-roll-dice{
     top: 500px;
     background: none;
     border: none;
-    color: #8d27c4;
-    font-size: 1.4rem;
     cursor: pointer;
+    color: #ffffff;
+    background-color: #394f9e;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 25px #0000006c;  
 }
 .btn-roll-dice > span{
     transition: .1s ease-in;
@@ -104,9 +114,13 @@ body{
     top: 550px;
     background: none;
     border: none;
-    color: #8d27c4;
-    font-size: 1.4rem;
     cursor: pointer;
+    color: #ffffff;
+    background-color: #394f9e;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 25px #0000006c;  
 }
 .btn-hold > span{
     transition: .1s ease-in;
@@ -234,7 +248,6 @@ body{
     }
 }
 
-/* http://127.0.0.1:5500/ */
 @media screen and (max-width : 450px){
     .btn-new{
         top: 450px;
