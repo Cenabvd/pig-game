@@ -1,0 +1,223 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active-player{
+    background-color: #e8ecf0;  
+}
+.winner{
+    color: #e62058;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #394f9e;
+}
+/* wrapper */
+.wrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 45px #00000078;
+    text-align: center;
+}
+/* player panerl */
+.player-0-panel{
+    width: 50%;
+    height: 100%;
+}
+.player-1-panel{
+    width: 50%;
+    height: 100%;
+}
+/* player current */
+.player-current-box{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #394f9e;
+}
+
+.player-current-label{
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+.player-current-score{
+    font-size: 1.5rem;
+    color: #ffffff;
+
+}
+
+/* player name & socre */
+.player-name{
+    font-size: 2rem;
+    font-weight: lighter;  
+    padding-top: 60px;
+}
+.player-score{
+    font-size: 10rem;
+    font-weight: 100;
+    color: #394f9e;
+}
+
+/* btn */
+.wrapper > button {
+    position: fixed;
+}
+
+.btn-new{
+    top: 200px;
+    background: none;
+    border: none;
+    color: #e62058;
+    font-size: 1.4rem;
+    cursor: pointer;    
+}
+.btn-roll-dice{
+    bottom: 200px;
+    background: none;
+    border: none;
+    color: #8d27c4;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.btn-roll-dice > span{
+    transition: .1s ease-in;
+}
+.btn-roll-dice > span:hover{
+    padding-left: 8px;
+}
+.btn-hold{
+    bottom: 150px;
+    background: none;
+    border: none;
+    color: #8d27c4;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.btn-hold > span{
+    transition: .1s ease-in;
+}
+.btn-hold > span:hover{
+    padding-left: 8px;
+}
+/* dice img */
+.dice{
+    width: 100px;
+    position: fixed;
+    box-shadow: 0px 5px 45px #0000005b;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width : 878px){
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        text-align: center;
+    }
+    .player-name{
+        font-size: 2rem;
+        font-weight: lighter;  
+        padding-top: 120px;
+    }
+    .player-score{
+        font-size: 10rem;
+        font-weight: 100;
+        color: #394f9e;
+    }
+    .player-current-box{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 1rem;
+        display: inline-block;
+        padding: 8px 8px;
+        background-color: #394f9e;
+    }
+    .dice{
+        width: 90px;
+        position: fixed;
+        box-shadow: 0px 5px 45px #0000005b;
+        display: none;
+    }
+    .btn-new{
+        top: 450px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        background-color: #d0477c;
+        padding: 9px 11px;
+        font-size: .9rem;
+        border-radius: 5px;
+        box-shadow: 0px 1px 25px #0000006c;
+        cursor: pointer;    
+    }
+    .btn-hold{
+        bottom: 150px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        background-color: #394f9e;
+        padding: 5px 11px;
+        font-size: .9rem;
+        border-radius: 5px;
+        box-shadow: 0px 1px 25px #0000006c;
+        cursor: pointer;
+    }
+    .btn-roll-dice{
+        bottom: 200px;
+        background: none;
+        border: none;
+        color: #ffffff;
+        background-color: #394f9e;
+        padding: 5px 11px;
+        font-size: .9rem;
+        border-radius: 5px;
+        box-shadow: 0px 1px 25px #0000006c;
+        cursor: pointer;
+    }
+    .btn-roll-dice > span:hover{
+        padding-left: 0px;
+    }
+    .btn-hold > span:hover{
+        padding-left: 0px;
+    }
+    .winner{
+        color: #e62058;
+
+    }
+    .player-current-box{
+        text-align: center;
+        margin-top: 150px;
+        font-size: 1.1rem;
+        display: inline-block;
+        padding: 10px 10px;
+        background-color: #394f9e;
+        border-radius: 5PX;
+    }
+}
