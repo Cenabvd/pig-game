@@ -255,8 +255,8 @@ body{
         border: none;
         color: #ffffff;
         background-color: #d0477c;
-        padding: 7px 8px;
-        font-size: .7rem;
+        padding: 9px 9px;
+        font-size: .9rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
         cursor: pointer;    
@@ -322,8 +322,8 @@ body{
         border: none;
         color: #ffffff;
         background-color: #d0477c;
-        padding: 7px 7px;
-        font-size: .7rem;
+        padding: 8px 8px;
+        font-size: .8rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
         cursor: pointer;    
@@ -393,7 +393,7 @@ body{
         color: #ffffff;
         background-color: #d0477c;
         padding: 6px 6px;
-        font-size: .7rem;
+        font-size: .8rem;
         border-radius: 5px;
         box-shadow: 0px 1px 25px #0000006c;
         cursor: pointer;    
