@@ -12,6 +12,14 @@
 .winner{
     color: #e62058;
 }
+.active-player .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #e62058;
+    
+    
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -436,5 +444,13 @@ body{
         font-size: .7rem;
         color: #ffffff;
     
+    }
+    .active-player .player-name::after {
+        content: "\2022";
+        font-size: 27px;
+        position: absolute;
+        color: #e62058;
+        
+        
     }
 }
